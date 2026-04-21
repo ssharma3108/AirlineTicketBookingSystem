@@ -8,34 +8,48 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/FlightServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/config/FeignConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/controller/FlightController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/dto/FlightRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/dto/FlightResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/dto/RoundTripResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/dto/SeatUpdateRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/dto/StatusUpdateRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/entity/Flight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/entity/FlightStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/exception/SeatNotAvailableException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/repository/FlightRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/service/FlightService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/service/impl/FlightServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/java/com/flight/FlightService/util/AppConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlightService/src/test/java/com/flight/FlightService/FlightServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/BookingServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/AuthClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/FlightClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/NotificationClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/PaymentClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/SeatClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/config/FeignConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/config/OpenApiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/controller/BookingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/AddOnRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/BookingRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/BookingResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/FareResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/NotificationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/PaymentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/entity/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/enums/BookingStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/enums/TripType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/exception/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/exception/BookingNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/exception/PnrNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/repository/BookingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/security/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/security/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/service/BookingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/service/impl/BookingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/util/FareCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/util/PnrGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookingService/src/test/java/com/booking/BookingService/BookingServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +113,9 @@
     &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.BookingServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.FlightServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SeatServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/booking-service&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/seat-service&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -130,13 +145,14 @@
           <value>
             <map>
               <entry key="BookingServiceApplication" value="STOPPED" />
+              <entry key="SeatServiceApplication" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SeatServiceApplication">
     <configuration name="BookingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="BookingService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.booking.BookingService.BookingServiceApplication" />
@@ -146,6 +162,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeatServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SeatService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.seat.SeatService.SeatServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776703368028</updated>
       <workItem from="1776703370103" duration="5646000" />
-      <workItem from="1776748210270" duration="13897000" />
+      <workItem from="1776748210270" duration="16718000" />
     </task>
     <servers />
   </component>

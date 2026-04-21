@@ -7,11 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BookingService" />
+      </profile>
+      <profile name="Annotation profile for SeatService" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
+        </processorPath>
+        <module name="SeatService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auth-service" target="21" />
+      <module name="BookingService" target="21" />
       <module name="FlightService" target="21" />
     </bytecodeTargetLevel>
   </component>
@@ -19,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BookingService" options="-parameters" />
       <module name="FlightService" options="-parameters" />
+      <module name="SeatService" options="-parameters" />
       <module name="auth-service" options="-parameters" />
     </option>
   </component>
