@@ -3,8 +3,10 @@ package com.skybooker.auth.service.impl;
 import com.skybooker.auth.entity.Role;
 import com.skybooker.auth.entity.User;
 import com.skybooker.auth.repository.UserRepository;
+import com.skybooker.auth.service.EmailService;
 import com.skybooker.auth.service.UserService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +19,9 @@ public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
+
+    @Autowired
+    private EmailService emailService;
 
     @Override
     public User registerUser(User user) {
@@ -91,4 +96,43 @@ public class UserServiceImpl implements UserService {
     public void deleteUser(Integer userId) {
         userRepository.deleteById(userId);
     }
+
+    @Override
+    public void forgotPassword(String email) {
+
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        String otp = String.valueOf((int)(Math.random() * 900000) + 100000);
+
+        user.setOtp(otp);
+        user.setOtpExpiry(LocalDateTime.now().plusMinutes(5));
+
+        userRepository.save(user);
+
+        emailService.sendOtp(email, otp);
+    }
+
+
+    @Override
+    public void verifyOtpAndResetPassword(String email, String otp, String newPassword) {
+
+        User user = userRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        if (!user.getOtp().equals(otp)) {
+            throw new RuntimeException("Invalid OTP");
+        }
+
+        if (user.getOtpExpiry().isBefore(LocalDateTime.now())) {
+            throw new RuntimeException("OTP Expired");
+        }
+
+        user.setPasswordHash(passwordEncoder.encode(newPassword));
+        user.setOtp(null);
+        user.setOtpExpiry(null);
+
+        userRepository.save(user);
+    }
+
 }

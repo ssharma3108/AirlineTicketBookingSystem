@@ -21,4 +21,9 @@ public interface UserService {
     void deactivateUser(Integer userId);
 
     void deleteUser(Integer userId);
+
+    void forgotPassword(String email);
+
+    void verifyOtpAndResetPassword(String email, String otp, String newPassword);
+
 }

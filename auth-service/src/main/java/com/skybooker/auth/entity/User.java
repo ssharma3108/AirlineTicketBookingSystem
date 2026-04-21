@@ -38,4 +38,10 @@ public class User {
     private String nationality;
 
     private LocalDateTime createdAt;
+
+    private String otp;
+
+    private LocalDateTime otpExpiry;
+
 }
+
