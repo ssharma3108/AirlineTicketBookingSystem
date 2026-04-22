@@ -4,52 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2426ae1-af94-4822-aaff-491a731f9416" name="Changes" comment="">
+    <list default="true" id="dfc712b5-19af-4bed-a650-a095c8cc9c41" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/BookingServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/AuthClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/FlightClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/NotificationClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/PaymentClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/client/SeatClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/config/CorsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/config/FeignConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/config/OpenApiConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/controller/BookingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/AddOnRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/BookingRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/BookingResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/FareResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/NotificationRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/dto/PaymentRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/entity/Booking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/enums/BookingStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/enums/TripType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/exception/BadRequestException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/exception/BookingNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/exception/PnrNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/repository/BookingRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/security/CustomUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/security/JwtFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/security/JwtUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/service/BookingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/service/impl/BookingServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/util/DateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/util/FareCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/java/com/booking/BookingService/util/PnrGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookingService/src/test/java/com/booking/BookingService/BookingServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/SeatServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/controller/SeatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/dto/SeatRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/dto/SeatResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/entity/Seat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/entity/SeatClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/entity/SeatStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/exception/SeatNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/repository/SeatRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/scheduler/SeatScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/service/SeatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/java/com/seat/SeatService/service/SeatServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatService/src/test/java/com/seat/SeatService/SeatServiceApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +38,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="40" />
+    <option name="cachedIndexableFilesCount" value="14" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,18 +57,15 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="jreName" value="openjdk-21" />
-  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="3Cd6zgzUkPbuYyiEu3VcMt8Xl9L" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3ChQssHipqRunXzA6K0Zt4tc0fZ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -98,96 +73,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.BookingServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.FlightServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SeatServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/seat-service&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.PassengerServiceApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "feature/passenger-service",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="KtorApplicationConfigurationType" />
-        <option value="MicronautRunConfigurationType" />
-        <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-    <option name="configurationStatuses">
-      <map>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <map>
-              <entry key="BookingServiceApplication" value="STOPPED" />
-              <entry key="SeatServiceApplication" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.SeatServiceApplication">
-    <configuration name="BookingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="BookingService" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.booking.BookingService.BookingServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.booking.BookingService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="PassengerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="PassengerService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.passenger.PassengerService.PassengerServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeatServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="SeatService" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.seat.SeatService.SeatServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.BookingServiceApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2426ae1-af94-4822-aaff-491a731f9416" name="Changes" comment="" />
-      <created>1776703368028</created>
+      <changelist id="dfc712b5-19af-4bed-a650-a095c8cc9c41" name="Changes" comment="" />
+      <created>1776835546253</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1776703368028</updated>
-      <workItem from="1776703370103" duration="5646000" />
-      <workItem from="1776748210270" duration="16718000" />
+      <updated>1776835546253</updated>
+      <workItem from="1776835553415" duration="4783000" />
     </task>
     <servers />
   </component>
