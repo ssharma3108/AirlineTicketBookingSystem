@@ -30,13 +30,13 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class PaymentServiceImpl implements PaymentService {
 
-    private final PaymentRepository paymentRepository;
+    @Autowired
+    private  PaymentRepository paymentRepository;
 
     private  BookingClient bookingClient;
 
     private  UserClient userClient;
 
-    // ✅ INITIATE PAYMENT
     @Override
     public PaymentResponseDTO initiatePayment(PaymentRequestDTO request) {
 
@@ -94,7 +94,7 @@ public class PaymentServiceImpl implements PaymentService {
         }
     }
 
-    // ✅ PROCESS PAYMENT
+  // PROCESS PAYMENT
     @Override
     public PaymentResponseDTO processPayment(UUID paymentId) {
 
@@ -126,7 +126,7 @@ public class PaymentServiceImpl implements PaymentService {
         }
     }
 
-    // ✅ GET BY BOOKING
+    // GET BY BOOKING
     @Override
     public List<PaymentResponseDTO> getPaymentByBooking(Long bookingId) {
         return paymentRepository.findByBookingId(bookingId)
@@ -135,7 +135,7 @@ public class PaymentServiceImpl implements PaymentService {
                 .collect(Collectors.toList());
     }
 
-    // ✅ GET BY USER
+    // GET BY USER
     @Override
     public List<PaymentResponseDTO> getPaymentsByUser(Long userId) {
         return paymentRepository.findByUserId(userId)
@@ -144,7 +144,7 @@ public class PaymentServiceImpl implements PaymentService {
                 .collect(Collectors.toList());
     }
 
-    // ✅ REFUND
+    // REFUND
     @Override
     public PaymentResponseDTO refundPayment(RefundRequestDTO request) {
 
@@ -178,7 +178,7 @@ public class PaymentServiceImpl implements PaymentService {
         }
     }
 
-    // ✅ STATUS
+    //  STATUS
     @Override
     public PaymentStatusResponseDTO getPaymentStatus(UUID paymentId) {
 
@@ -191,7 +191,7 @@ public class PaymentServiceImpl implements PaymentService {
                 .build();
     }
 
-    // ✅ UPDATE STATUS
+    //  UPDATE STATUS
     @Override
     public PaymentResponseDTO updatePaymentStatus(UUID paymentId, String status) {
 
@@ -204,7 +204,7 @@ public class PaymentServiceImpl implements PaymentService {
         return mapToDTO(payment);
     }
 
-    // ✅ RECEIPT (FIXED)
+    //  RECEIPT
     @Override
     public ReceiptDTO generateReceipt(UUID paymentId) {
 
@@ -214,7 +214,7 @@ public class PaymentServiceImpl implements PaymentService {
         return ReceiptGenerator.generateReceipt(payment);
     }
 
-    // ✅ REVENUE
+    // REVENUE
     @Override
     public Double getRevenue() {
         return paymentRepository.findAll()
