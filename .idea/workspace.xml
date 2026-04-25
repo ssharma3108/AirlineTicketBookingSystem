@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="92b9cc7b-cb87-4466-a8ac-22f5e2bddacd" name="Changes" comment="" />
+    <list default="true" id="6e57b929-e6fb-4acd-b28a-644ff8d574af" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/src/main/java/com/eureka/EurekaServer/EurekaServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/src/test/java/com/eureka/EurekaServer/EurekaServerApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +42,7 @@
   "customColor": "",
   "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="3CpupPNt6bJE5OKaJgqohlTwztS" />
+  <component name="ProjectId" id="3CpvX5L0mTsnnBpanoHWJeLxAiK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,25 +50,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.EurekaServerApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/Eureka-Server",
+    "git-widget-placeholder": "feature/Config-Server",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="EurekaServer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.EurekaServer.EurekaServerApplication" />
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ConfigServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.ConfigServer.ConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,12 +76,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92b9cc7b-cb87-4466-a8ac-22f5e2bddacd" name="Changes" comment="" />
-      <created>1777095024996</created>
+      <changelist id="6e57b929-e6fb-4acd-b28a-644ff8d574af" name="Changes" comment="" />
+      <created>1777095364969</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1777095024996</updated>
-      <workItem from="1777095030365" duration="213000" />
+      <updated>1777095364969</updated>
+      <workItem from="1777095369670" duration="305000" />
     </task>
     <servers />
   </component>
