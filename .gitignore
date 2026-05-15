@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+# Allow src folder
+!src/
+!src/**
+
+# Allow pom.xml
+!pom.xml
+
+# Allow Maven Wrapper (optional but recommended)
+!.mvn/
+!.mvn/**
+!mvnw
+!mvnw.cmd
+
+# Allow Git ignore itself
+!.gitignore
