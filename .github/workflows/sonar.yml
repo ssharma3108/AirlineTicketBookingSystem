@@ -4,81 +4,10 @@ on:
   push:
     branches:
       - main
-      - features/AirlineService
-      - features/ApiGateway
-      - features/AuthService
-      - features/BookingService
-      - features/EurekaServer
-      - features/FlightService
-      - features/NotificationService
-      - features/PassengerService
-      - features/PaymentService
-      - features/SeatService
-  pull_request:
-    branches:
-      - main
 
 jobs:
   sonar:
     runs-on: ubuntu-latest
-
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - branch: features/AirlineService
-            path: Airline-Service
-            projectKey: shivamsharma_airline_service
-            projectName: Airline Service
-
-          - branch: features/ApiGateway
-            path: SkyBooker-api-gateway
-            projectKey: shivamsharma_api_gateway
-            projectName: API Gateway
-
-          - branch: features/AuthService
-            path: skybooker-auth-service
-            projectKey: shivamsharma_auth_service
-            projectName: Auth Service
-
-          - branch: features/BookingService
-            path: Booking-Service
-            projectKey: shivamsharma_booking_service
-            projectName: Booking Service
-
-          - branch: features/EurekaServer
-            path: EurekaServer
-            projectKey: shivamsharma_eureka_server
-            projectName: Eureka Server
-
-          - branch: features/FlightService
-            path: Flight-Service
-            projectKey: shivamsharma_flight_service
-            projectName: Flight Service
-
-          - branch: features/NotificationService
-            path: Notification-Service
-            projectKey: shivamsharma_notification_service
-            projectName: Notification Service
-
-          - branch: features/PassengerService
-            path: Passenger-Service
-            projectKey: shivamsharma_passenger_service
-            projectName: Passenger Service
-
-          - branch: features/PaymentService
-            path: Payment-Service
-            projectKey: shivamsharma_payment_service
-            projectName: Payment Service
-
-          - branch: features/SeatService
-            path: Seat-Service
-            projectKey: shivamsharma_seat_service
-            projectName: Seat Service
-
-    if: >-
-      (github.event_name == 'push' && github.ref == format('refs/heads/{0}', matrix.branch))
-      || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == matrix.branch)
 
     steps:
       - name: Checkout code
@@ -86,19 +15,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up JDK 17
+      - name: Set up Java 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 17
           cache: maven
 
-      - name: Build and analyze
-        working-directory: ./${{ matrix.path }}
+      - name: Build and Analyze Airline Service
+        working-directory: ./Airline-Service
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn clean verify sonar:sonar \
-            -Dsonar.organization=shivamsharma \
-            -Dsonar.projectKey=${{ matrix.projectKey }} \
-            -Dsonar.projectName="${{ matrix.projectName }}"
+            -Dsonar.organization=ssharma3108-1 \
+            -Dsonar.projectKey=ssharma3108-1_airline_service
