@@ -1,18 +1,32 @@
-# Ignore everything
 *
 
-# Allow src folder
-!src/
-!src/**
+!*/
 
-# Allow pom.xml
-!pom.xml
+!**/src/
+!**/src/**
 
-# Allow Maven Wrapper (optional but recommended)
-!.mvn/
-!.mvn/**
-!mvnw
-!mvnw.cmd
+!**/pom.xml
 
-# Allow Git ignore itself
-!.gitignore
+!**/Dockerfile
+!docker-compose*.yml
+!.dockerignore
+
+!Jenkinsfile
+
+!.env.example
+
+.env
+**/.env
+
+target/
+**/target/
+
+.idea/
+.vscode/
+*.iml
+
+*.log
+logs/
+
+.DS_Store
+Thumbs.db
