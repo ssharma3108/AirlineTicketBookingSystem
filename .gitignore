@@ -1,6 +1,9 @@
 *
-
 !*/
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
+!.github/workflows/*.yaml
 
 !**/src/
 !**/src/**
@@ -12,7 +15,6 @@
 !.dockerignore
 
 !Jenkinsfile
-
 !.env.example
 
 .env
