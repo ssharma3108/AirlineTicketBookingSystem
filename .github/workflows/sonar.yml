@@ -26,7 +26,7 @@ jobs:
         working-directory: ./Airline-Service
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: |
-  mvn clean verify -DskipTests sonar:sonar \
-    -Dsonar.organization=ssharma3108-1 \
-    -Dsonar.projectKey=ssharma3108-1_airline_service
+        run: |
+          mvn clean verify -DskipTests sonar:sonar \
+            -Dsonar.organization=ssharma3108-1 \
+            -Dsonar.projectKey=ssharma3108-1_airline_service
